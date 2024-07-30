@@ -6,16 +6,16 @@ buttons.forEach(function (box){
     box.addEventListener('click',function (e){
         console.log(e);
         console.log(e.target);
-       if (e.target.id === 'color_box1') {
+       if (e.target.id === 'Gray') {
           body.style.backgroundColor = e.target.id;
        }
-       if (e.target.id === 'color_box2') {
+       if (e.target.id === 'Green') {
           body.style.backgroundColor = e.target.id;
        }
-       if (e.target.id === 'color_box3') {
+       if (e.target.id === 'Blue') {
           body.style.backgroundColor = e.target.id;
        }
-       if (e.target.id === 'color_box4') {
+       if (e.target.id === 'Yellow') {
           body.style.backgroundColor = e.target.id;
        }
     });

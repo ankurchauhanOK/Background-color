@@ -56,16 +56,17 @@ section{
     height: 196px;
     width: 210px;
 }
-#color_box1{
-    background-color: #A0A0A2;
+#Gray{
+    background-color: gray;
 }
-#color_box2{
-    background-color: #3bb58a;
+#Green{
+    background-color: green;
 }
-#color_box3{
-    background-color: #0000FF;
+#Blue{
+
+    background-color: blue;
 }
-#color_box4{
+#Yellow{
     background-color: #FFFF00;
 }
 .head{
